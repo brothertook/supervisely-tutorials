@@ -1,4 +1,4 @@
-FROM nvidia/cuda:8.0-cudnn5-devel
+FROM nvidia/cuda:8.0-cudnn6-devel
 
 ENV CONDA_DIR /opt/conda
 ENV PATH $CONDA_DIR/bin:$PATH
